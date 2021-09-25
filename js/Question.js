@@ -11,7 +11,6 @@ class Question {
     this.option3 = createElement('h4');
     this.option4 = createElement('h4');
     this.message = createElement("h2");
-    this.message1=createElement("h2");
   }
 
   hide(){
@@ -20,7 +19,6 @@ class Question {
     this.button.hide();
     this.input2.hide();
     this.message.hide();
-    this.message1.hide();
   }
 
   display(){
@@ -50,8 +48,7 @@ class Question {
       
       this.message.html("Thank You, Your Answer Has Been Submitted");
       this.message.position(350, 300);
-      this.message1.html("Aap jeet chuke hai 1 crore");
-      this.message1.position(350,350);
+      console.log("Aap jeet chuke hai 5 crore");
       // this.message.html("Thank You, Your Answer Has Been Submitted");
       // this.message.position();
 
