@@ -10,7 +10,8 @@ class Question {
     this.option2 = createElement('h4');
     this.option3 = createElement('h4');
     this.option4 = createElement('h4');
-    this.message = createElement("h2")
+    this.message = createElement("h2");
+    this.message1=createElement("h2");
   }
 
   hide(){
@@ -19,6 +20,7 @@ class Question {
     this.button.hide();
     this.input2.hide();
     this.message.hide();
+    this.message2.hide();
   }
 
   display(){
@@ -48,7 +50,8 @@ class Question {
       
       this.message.html("Thank You, Your Answer Has Been Submitted");
       this.message.position(350, 350);
-
+      this.message.html("Aap jeet chuke hai 1 crore");
+      this.message.position(350,400);
       // this.message.html("Thank You, Your Answer Has Been Submitted");
       // this.message.position();
 
